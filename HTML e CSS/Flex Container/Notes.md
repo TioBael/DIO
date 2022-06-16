@@ -37,4 +37,4 @@ Filhos diretos do Flex Container, podem também se tornar flex containers usando
 
 ## Exemplo
 
-No [exemplo](0-display-flex.html), é possivel ver a classe flex modificando o container "<div>", porém, sem o devido tratamento, os itens podem sair do box.
+No [exemplo](0-display-flex.html), é possivel ver a classe flex modificando o container "div", porém, sem o devido tratamento, os itens podem sair do box.
