@@ -6,4 +6,4 @@ Tentarei manter os hyperlinks também, já fico feliz que esse Read me foi escri
 
 Material:
 
-[HTML e CSS](https://github.com/TioBael/DIO/tree/main/HTML%20e%20CSS/HTML5%20e%20CSS)
+[HTML e CSS](https://github.com/TioBael/DIO/tree/main/HTML%20e%20CSS)
