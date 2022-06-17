@@ -1,6 +1,7 @@
 .flex-container{
 		display: flex;
-		height: 150px;
+		border: 2px solid #000000;
+		max-width: 300px;
 	}	
 
 	.item{
@@ -8,10 +9,20 @@
 		height: 50%;
 		text-align: center;
 		width: 100px;
+		min-width: 100px;
+		line-height: 70px;
 	}
 
 	.nowrap{
 		flex-wrap: nowrap;
+	}
+
+	.wrap{
+		flex-wrap: wrap;
+	}
+
+	.wrap-reverse{
+		flex-wrap: wrap-reverse;
 	}
 
 	.blue{
@@ -25,3 +36,8 @@
 	.orange{
 		background-color: orange;
 	}
+
+	.purple{
+		background-color: purple;
+	}
+
