@@ -1,5 +1,7 @@
 # Anotações Flex box
 
+(Em algum momento no futuro, irei separar cada topico em sua devida pasta, mas agora que eu tenho tempo, não farei, desculpe pela parede de texto)
+
 ## Objetivo
 
 Espaçamento entre itens em uma interface e ajuda disponibilizando recursos de alinhamento.
@@ -51,3 +53,12 @@ A função é estabelecer o eixo principal do container, sendo o eixo vertical(c
 ## Exemplo Flex-direction
 
 No [exemplo](1-flex-direction.html), é possivel ver a classe flex modificando o container "ul", formando listas usando o row(em azul), row-reverse(em vermelho), column(em laranja) e colum-reverse(em roxo)
+
+## Flex Wrap
+
+A função é controlar a quebra de linha no container. Com isso, podemos resolver o problema do [Display Flex](https://github.com/TioBael/DIO/blob/main/HTML%20e%20CSS/Flex%20Container/Notes.md#exemplo-de-display-flex). O Flex Wrap tem como propriedades:
+
+- nowrap -> Comportamento padrão, a não quebra de linha
+- wrap -> A quebra de linha quando um dos itens do flex não poder ser mais compactada. O primeiro elemento que ficar fora do container será colocado na linha de baixo.
+- wrap-reverse -> Ele faz a quebra de linha, porém, mandando o item que ficará para fora para a linha de cima, em vez da linha de baixo.
+
