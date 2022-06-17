@@ -1,6 +1,6 @@
 # Anotações Flex box
 
-(Em algum momento no futuro, irei separar cada topico em sua devida pasta, mas agora que eu tenho tempo, não farei, desculpe pela parede de texto)
+(Em algum momento no futuro, irei separar cada topico em sua devida pasta. Mas agora que eu não tenho tempo, não farei, desculpe pela parede de texto)
 
 ## Objetivo
 
