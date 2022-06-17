@@ -75,3 +75,17 @@ Obvio, é um atalho, então tem seus prós e contras, como facilita e agiliza co
 ## Exemplo Flex Flow
 
 No [exemplo](3-flex-flow.html) e por sua vez no css [flex-flow](css/flex-flow.css), é demonstrado os casos em "Row", fazendo row-reverse e row, e usando o "Wrap", usando o wrap, wrap-reverse e o nowrap. Os resultados seriam parecidos se fosse usado em direction o "Column", porém, mesclando os dois necessitaria uma configuração mais fina, para comportar ambos usando o flex-flow, por isso que poderia ser melhor nesses tipos de caso usar individualmente o flex-direction e o flex-wrap.
+
+## Justify
+
+Essa propriedade serve para alinha os itens dentro do container.
+
+**DISCLAIMER**: Se o item está ocupando 100% do container, a propriedade não será aplicada, pois não terá nada para alinhar.
+
+### Propriedades do Justify
+
+- flex-start -> Justifica baseando-se na sobra de espaço no início do container.
+- flex-end -> Justifica baseando-se na sobra de espaço no final do container.
+- center -> Justifica centralizando o conteudo.
+- space-between -> Justifica criando um espaço igual entre os elementos.
+- space-around -> Justifica fazendo com que o espaçamento do meio do container seja 2x maior que no inicio e o final.
