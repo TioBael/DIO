@@ -39,7 +39,7 @@ Filhos diretos do Flex Container, podem também se tornar flex containers usando
 
 ## Exemplo de Display-flex
 
-No [exemplo](0-display-flex.html) e por sua vez no css [display-flex](css/display-flex.css), é possivel ver a classe flex modificando o container "div", porém, sem o devido tratamento, os itens podem sair do box.
+No [exemplo 0](0-display-flex.html) e por sua vez no css [display-flex](css/display-flex.css), é possivel ver a classe flex modificando o container "div", porém, sem o devido tratamento, os itens podem sair do box.
 
 ## Flex direction
 
@@ -52,7 +52,7 @@ A função é estabelecer o eixo principal do container, sendo o eixo vertical(c
 
 ## Exemplo Flex-direction
 
-No [exemplo](1-flex-direction.html) e por sua vez no css [flex-direction](css/flex-direction.css), é possivel ver a classe flex modificando o container "ul", formando listas usando o row(em azul), row-reverse(em vermelho), column(em laranja) e colum-reverse(em roxo)
+No [exemplo 1](1-flex-direction.html) e por sua vez no css [flex-direction](css/flex-direction.css), é possivel ver a classe flex modificando o container "ul", formando listas usando o row(em azul), row-reverse(em vermelho), column(em laranja) e colum-reverse(em roxo)
 
 ## Flex Wrap
 
@@ -64,7 +64,7 @@ A função é controlar a quebra de linha no container. Com isso, podemos resolv
 
 ## Exemplo Flex Wrap
 
-No [exemplo](2-flex-wrap.html) e por sua vez no css [flex-wrap](css/flex-wrap.css), é possivel ver como as classes reagem ao limite da borda, sendo o nowrap ignorando o limite, o wrap quebrando baseado no max-width, e o wrap-reverse fazendo a mesma coisa, só que de ordem reversa.
+No [exemplo 2](2-flex-wrap.html) e por sua vez no css [flex-wrap](css/flex-wrap.css), é possivel ver como as classes reagem ao limite da borda, sendo o nowrap ignorando o limite, o wrap quebrando baseado no max-width, e o wrap-reverse fazendo a mesma coisa, só que de ordem reversa.
 
 ## Flex Flow
 
@@ -74,7 +74,7 @@ Obvio, é um atalho, então tem seus prós e contras, como facilita e agiliza co
 
 ## Exemplo Flex Flow
 
-No [exemplo](3-flex-flow.html) e por sua vez no css [flex-flow](css/flex-flow.css), é demonstrado os casos em "Row", fazendo row-reverse e row, e usando o "Wrap", usando o wrap, wrap-reverse e o nowrap. Os resultados seriam parecidos se fosse usado em direction o "Column", porém, mesclando os dois necessitaria uma configuração mais fina, para comportar ambos usando o flex-flow, por isso que poderia ser melhor nesses tipos de caso usar individualmente o flex-direction e o flex-wrap.
+No [exemplo 3](3-flex-flow.html) e por sua vez no css [flex-flow](css/flex-flow.css), é demonstrado os casos em "Row", fazendo row-reverse e row, e usando o "Wrap", usando o wrap, wrap-reverse e o nowrap. Os resultados seriam parecidos se fosse usado em direction o "Column", porém, mesclando os dois necessitaria uma configuração mais fina, para comportar ambos usando o flex-flow, por isso que poderia ser melhor nesses tipos de caso usar individualmente o flex-direction e o flex-wrap.
 
 ## Justify
 
