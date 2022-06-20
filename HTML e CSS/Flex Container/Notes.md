@@ -89,3 +89,23 @@ Essa propriedade serve para alinha os itens dentro do container.
 - center -> Justifica centralizando o conteudo.
 - space-between -> Justifica criando um espaço igual entre os elementos.
 - space-around -> Justifica fazendo com que o espaçamento do meio do container seja 2x maior que no inicio e o final.
+
+## Exemplo Justify
+
+No [exemplo 4](4-justify-content.html) e por usa vez no css [justify-content](css/justify-content.css) é possivel ver os casos de Flex-start, onde ele justifica alinhando para a esquerda, Flex-end, onde é justificado para a direita, Flex-Center, onde ele justifica voltado para o centro, Space Between, onde ele cria espaços iguais entre todos os elementos, Space around, onde ele cria espaços iguais porém, ele cria no inicio do primeiro item e no fim do ultimo item de forma proporcional e por fim Space evenly, onde ele cria espaços iguais para todos os elementos, e também no inicio do primeiro e no fim do ultimo, mas dessa vez, não proporcional, mas sim de forma igual. E também será possivel ver o comportamento no flex-direction: row e também no flex-direction: column.
+
+## Align Items
+
+Tem como função alinhar os flex itens de acordo com o eixo do containder, e diferente do justify, não tem a necessidade de aplicar os conceitos de altura, pois ele usa a própria proporcionalidade 
+
+### Propriedades do Align Items
+
+- center -> Alinha para o centro
+- stretch (default) -> cresce os items igualmente
+- flex-start -> leva todos os itens para o inicio do container
+- flex-end -> leva todos os itens para o final do container
+- baseline -> alinha baseando-se na linha relacionada ao texto
+
+## Exemplo Align Items
+
+No [exemplo 5](5-align-items.html) e por sua vez no css [align-items](css/align-items.css) é possivel ver um exemplo de cada propriedade usando tanto na flex-direction: row e column, e um exemplo separado, um dos objetivos que é o alinhamento ao centro da tela, fazendo a mistura do justify e do align item ao final da pagina.
