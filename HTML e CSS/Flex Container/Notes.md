@@ -109,3 +109,34 @@ Tem como função alinhar os flex itens de acordo com o eixo do containder, e di
 ## Exemplo Align Items
 
 No [exemplo 5](5-align-items.html) e por sua vez no css [align-items](css/align-items.css) é possivel ver um exemplo de cada propriedade usando tanto na flex-direction: row e column, e um exemplo separado, um dos objetivos que é o alinhamento ao centro da tela, fazendo a mistura do justify e do align item ao final da pagina.
+
+## Align Content
+
+Tem como objetivo como fazer o tratamento do eixo vertical, basicamente trabalhar com as linhas do container.
+
+Será necessario do flex-wrap no modo wrap, e a altura do container tem de ser maior que a soma das linhas dos itens.
+
+### Propriedades do Align Content
+
+- center -> Alinha para o centro
+- stretch -(default) -> cresce igualmente, pega o maior e usa como referencia para o crescimento dos outros
+- flex-start -> leva todos os itens para o inicio do container
+- flex-end -> leva todos os itens para o final do container
+- space-between -> Crescimento criando um espaço igual entre os elementos.
+- space-around -> Crescimento fazendo com que o espaçamento do meio do container seja 2x maior que no inicio e o final.
+
+## Exemplo Align Content
+
+No [exemplo 6](6-align-content.html) e por sua vez, no css [align-content](css/align-content.css), podemos ver suas propriedades em funcionamento, onde de certa forma, é um pouco parecida com o align item, porém, com alinhamento vertical.
+
+---------
+
+## Flex Grow
+
+Define proprocionalidade de crescimento dos itens, porém, sempre respeitando os itens internos.
+
+*DISCLAIMER*: Não irá funcionar se tiver justify-content no flex container.
+
+## Exemplo Flex Grow
+
+No [exemplo 7](7-flex-grow.html) e por sua vez, no css [flex-grow](css/flex-grow.css), podemos em que suas propriedades respeitam o tamanho dos itens internos, porém, tudo tem seu limite. Se continuar inserindo conteudo no container, a caixa irá sair da border.
