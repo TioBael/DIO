@@ -9,6 +9,7 @@
 
 - git remote add origin (link do repositorio git) -> aponta a localização do repositorio remoto
 - git push -u origin master -> faz o push do repositorio local para o github, no branch master
+- git pull (origin) -> fazer a atualização com o remoto
 
 ### Comandos adicionais do git
 
