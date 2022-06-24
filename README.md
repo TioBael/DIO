@@ -1,6 +1,6 @@
 # Bootcamp Santander e Dio
 
-[comment]: <> (Isso é um teste!)
+[comment]: <> (Isso é um teste! feito no debian depois de atualizar o git)
 
 Aqui é o meu repositório do bootcamp Fullstacker Santander e Dio, tentarei manter o mais atualizado o possível, dependendo do meu ritmo de estudo.
 
