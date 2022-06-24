@@ -1,0 +1,52 @@
+.flex-container{
+	display: flex;
+	border: 1px solid #000000;
+	max-width: 350px;
+	margin-bottom: 20px;
+}
+
+.item{
+	flex: 1;
+	background: brown;
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	margin: 5px;
+}
+
+.o1{
+	order: 1;
+}
+
+.o2{
+	order: 2;
+}
+
+.o3{
+	order: 3;
+}
+
+.o4{
+	order: 4;
+}
+
+.no1{
+	order: -1;
+}
+
+.no2{
+	order: -2;
+}
+
+.no3{
+	order: -3;
+}
+
+.no4{
+	order: -4;
+}
+
+
+.direction{
+	flex-direction: column;
+}
