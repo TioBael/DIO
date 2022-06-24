@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/flex-shrink.css">
+	<title>Fundamentos - Flex Shrink</title>
+</head>
+<body>
+	<h2>Flex-shrink: 1</h2>
+	<div class="flex-container">
+		<div class="item s-1 fg-1">A</div>
+		<div class="item s-1 fg-1">B</div>
+		<div class="item s-1 fg-1">C</div>
+		<div class="item s-1 fg-1">D</div>
+		<div class="item s-1 fg-1">E</div>
+	</div>
+
+	<div class="flex-container">
+		<div class="item s-1 fg-1">A</div>
+		<div class="item s-1 fg-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+		<div class="item s-1 fg-1">C</div>
+		<div class="item s-1 fg-1">D</div>
+	</div>
+
+	<h2>Flex-shrink: 0 / basis: 100px</h2>
+	<div class="flex-container">
+		<div class="item s-0 fg-1">A</div>
+		<div class="item s-0 fg-1">Lorem ipsum dolor. </div>
+		<div class="item s-0 fg-1">C </div>
+		<div class="item s-0 fg-1">D</div>
+	</div>
+
+	<h2>Flex-shrink: mix</h2>
+	<div class="flex-container">
+		<div class="item s-1 fg-1">A</div>
+		<div class="item s-2 fg-1">Lorem ipsum dolor. </div>
+		<div class="item s-2 fg-1">Ccc</div>
+		<div class="item s-3 fg-1">M de Meltryllis</div>
+	</div>
+
+</body>
+</html>

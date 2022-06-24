@@ -155,4 +155,13 @@ Tem relação com os Flex Itens, e ela ira tratar do tamanho inicial dos itens a
 
 ### Exemplo Flex Basis
 
-NO [exemplo 8](8-flex-basis.html), e por sua vez, no css[flex-basis](css/flex-basis.css), é possivel ver como o flex basis tenta trabalhar proporcionando a distribuição de espaços no auto, com zero e indicando 100px para ele, e ao mesmo tempo trabalhando com o flex grow.
+No [exemplo 8](8-flex-basis.html), e por sua vez, no css[flex-basis](css/flex-basis.css), é possivel ver como o flex basis tenta trabalhar proporcionando a distribuição de espaços no auto, com zero e indicando 100px para ele, e ao mesmo tempo trabalhando com o flex grow.
+
+## Flex Shrink
+
+Ele ira ser o inverso do Flex Basis, ira ser o responsavel pela redução ou compressão proporcionalmente pelos itens.
+
+
+### Exemplo Flex Shrink
+
+[exemplo 9](9-flex-shrink.html), e seu css[flex-shrink](css/flex-shrink.css) (serei sincero, não entendi bem o suficiente para explicar em palavras, mas eu vi seu funcionamento e sei o que faz, caso alguem queira explicar a teoria apontando para a pratica, fique a vontade).
