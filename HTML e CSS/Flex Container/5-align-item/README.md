@@ -13,3 +13,5 @@ Tem como função alinhar os flex itens de acordo com o eixo do containder, e di
 ## Exemplo Align Items
 
 No [exemplo 5](5-align-items.html) e por sua vez no css [align-items](css/align-items.css) é possivel ver um exemplo de cada propriedade usando tanto na flex-direction: row e column, e um exemplo separado, um dos objetivos que é o alinhamento ao centro da tela, fazendo a mistura do justify e do align item ao final da pagina.
+
+Visualize [aqui](https://htmlpreview.github.io/?https://github.com/TioBael/DIO/blob/main/HTML%20e%20CSS/Flex%20Container/5-align-item/5-align-items.html)

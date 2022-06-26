@@ -13,3 +13,5 @@ Tem relação com os Flex Itens, e ela ira tratar do tamanho inicial dos itens a
 ## Exemplo Flex Basis
 
 No [exemplo 8](8-flex-basis.html), e por sua vez, no css[flex-basis](css/flex-basis.css), é possivel ver como o flex basis tenta trabalhar proporcionando a distribuição de espaços no auto, com zero e indicando 100px para ele, e ao mesmo tempo trabalhando com o flex grow.
+
+Visualize [aqui](https://htmlpreview.github.io/?https://github.com/TioBael/DIO/blob/main/HTML%20e%20CSS/Flex%20Container/8-flex-basis/8-flex-basis.html)

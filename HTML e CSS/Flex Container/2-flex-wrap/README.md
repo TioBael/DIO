@@ -11,3 +11,5 @@ A função é controlar a quebra de linha no container.
 ## Exemplo Flex Wrap
 
 No [exemplo 2](2-flex-wrap.html) e por sua vez no css [flex-wrap](css/flex-wrap.css), é possivel ver como as classes reagem ao limite da borda, sendo o nowrap ignorando o limite, o wrap quebrando baseado no max-width, e o wrap-reverse fazendo a mesma coisa, só que de ordem reversa.
+
+Visualize [aqui](https://htmlpreview.github.io/?https://github.com/TioBael/DIO/blob/main/HTML%20e%20CSS/Flex%20Container/2-flex-wrap/2-flex-wrap.html)

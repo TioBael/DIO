@@ -7,3 +7,5 @@ Obvio, é um atalho, então tem seus prós e contras, como facilita e agiliza co
 ## Exemplo Flex Flow
 
 No [exemplo 3](3-flex-flow.html) e por sua vez no css [flex-flow](css/flex-flow.css), é demonstrado os casos em "Row", fazendo row-reverse e row, e usando o "Wrap", usando o wrap, wrap-reverse e o nowrap. Os resultados seriam parecidos se fosse usado em direction o "Column", porém, mesclando os dois necessitaria uma configuração mais fina, para comportar ambos usando o flex-flow, por isso que poderia ser melhor nesses tipos de caso usar individualmente o flex-direction e o flex-wrap.
+
+Visualize [aqui](https://htmlpreview.github.io/?https://github.com/TioBael/DIO/blob/main/HTML%20e%20CSS/Flex%20Container/3-flex-flow/3-flex-flow.html)

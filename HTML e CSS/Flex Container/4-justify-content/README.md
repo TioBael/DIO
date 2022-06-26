@@ -15,3 +15,5 @@ Essa propriedade serve para alinha os itens dentro do container.
 ## Exemplo Justify
 
 No [exemplo 4](4-justify-content.html) e por usa vez no css [justify-content](css/justify-content.css) é possivel ver os casos de Flex-start, onde ele justifica alinhando para a esquerda, Flex-end, onde é justificado para a direita, Flex-Center, onde ele justifica voltado para o centro, Space Between, onde ele cria espaços iguais entre todos os elementos, Space around, onde ele cria espaços iguais porém, ele cria no inicio do primeiro item e no fim do ultimo item de forma proporcional e por fim Space evenly, onde ele cria espaços iguais para todos os elementos, e também no inicio do primeiro e no fim do ultimo, mas dessa vez, não proporcional, mas sim de forma igual. E também será possivel ver o comportamento no flex-direction: row e também no flex-direction: column.
+
+Visualize [aqui](https://htmlpreview.github.io/?https://github.com/TioBael/DIO/blob/main/HTML%20e%20CSS/Flex%20Container/4-justify-content/4-justify-content.html)

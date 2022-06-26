@@ -10,4 +10,6 @@ Tem o foco de estabelecer o alinhamento individual para o item determinado.
 - baseline -> usando a linha da fonte
 
 ## Exemplo do Align Self
-No [exemplo 12](12-align-self.html), e por sua vez, no css [align self](css/align-self.css), é possivel ver seus comportamentos como padrão, e center, start, stretch, end e Baseline tanto na direction column quanto em row
+No [exemplo 12](12-align-self.html), e por sua vez, no css [align self](css/align-self.css), é possivel ver seus comportamentos como padrão, e center, start, stretch, end e Baseline tanto na direction column quanto em row.
+
+Visualize [aqui](https://htmlpreview.github.io/?https://github.com/TioBael/DIO/blob/main/HTML%20e%20CSS/Flex%20Container/12-align-self/12-align-self.html)

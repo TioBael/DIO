@@ -16,3 +16,5 @@ Será necessario do flex-wrap no modo wrap, e a altura do container tem de ser m
 ## Exemplo Align Content
 
 No [exemplo 6](6-align-content.html) e por sua vez, no css [align-content](css/align-content.css), podemos ver suas propriedades em funcionamento, onde de certa forma, é um pouco parecida com o align item, porém, com alinhamento vertical.
+
+Visualize [aqui](https://htmlpreview.github.io/?https://github.com/TioBael/DIO/blob/main/HTML%20e%20CSS/Flex%20Container/6-align-content/6-align-content.html)

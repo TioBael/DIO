@@ -10,3 +10,5 @@ A função é estabelecer o eixo principal do container, sendo o eixo vertical(c
 ## Exemplo Flex-direction
 
 No [exemplo 1](1-flex-direction.html) e por sua vez no css [flex-direction](css/flex-direction.css), é possivel ver a classe flex modificando o container "ul", formando listas usando o row(em azul), row-reverse(em vermelho), column(em laranja) e colum-reverse(em roxo)
+
+Visualize [aqui](https://htmlpreview.github.io/?https://github.com/TioBael/DIO/blob/main/HTML%20e%20CSS/Flex%20Container/1-flex-direction/1-flex-direction.html).
