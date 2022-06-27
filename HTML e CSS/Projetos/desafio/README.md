@@ -7,4 +7,4 @@ Nesse projeto, o desafio foi de recriar a pagina de login do Instagram, onde pod
 
 ### Visualize a pagina aqui
 
-Será possivel visualizar a pagina [aqui](...)
+Será possivel visualizar a pagina [aqui](https://htmlpreview.github.io/?https://github.com/TioBael/DIO/blob/main/HTML%20e%20CSS/Projetos/desafio/index.html).
