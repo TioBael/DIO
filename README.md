@@ -11,3 +11,4 @@ Material:
 * [HTML e CSS](https://github.com/TioBael/DIO/tree/main/HTML%20e%20CSS)
   * [Flex Box](https://github.com/TioBael/DIO/tree/main/HTML%20e%20CSS/Flex%20Container)
   * [Projeto integrador](https://htmlpreview.github.io/?https://github.com/TioBael/DIO/blob/main/HTML%20e%20CSS/Projetos/integrador/index.html)
+  * [Projeto Desafio Instagram](https://htmlpreview.github.io/?https://github.com/TioBael/DIO/blob/main/HTML%20e%20CSS/Projetos/desafio/index.html)
