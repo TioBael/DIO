@@ -1,7 +1,7 @@
 var currentNumberWrapper = document.getElementById('currentNumber');
 var currentNumber = 0;
 
-function decrement(){
+document.getElementById('subtrair').addEventListener('click', function(){
 	if(currentNumber != -10){
 		currentNumber--;
 		currentNumberWrapper.innerHTML = currentNumber;
@@ -10,9 +10,10 @@ function decrement(){
 	}
 
 	changeColorButton(currentNumber);
-}
+});
 
-function increment(){
+
+document.getElementById('adicionar').addEventListener('click', function(){
 	if(currentNumber != 10){
 		currentNumber++;
 		currentNumberWrapper.innerHTML = currentNumber;
@@ -21,7 +22,8 @@ function increment(){
 	}
 	
 	changeColorButton(currentNumber);
-}
+});
+
 
 function changeColor(currentNumber){
 
