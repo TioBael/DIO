@@ -24,7 +24,11 @@ e qualquer variavel criada dentro de uma função é considerada uma variavel lo
 a palavra "Return" indica o fim de uma função, não importa se for o final do bloco do codigo ou se for um fim prematuro, podendo retornar um valor ou somente acabar o bloco de codigo.
 
 ---
-## Função Anonima
+
+## Tipos:
+Os tipos de funções:
+
+### Função Anonima:
 Pode ser considerada uma função anonima uma função que representa uma expressão.
 
     const soma = function (a,b){
@@ -33,8 +37,8 @@ Pode ser considerada uma função anonima uma função que representa uma expres
 
 Da mesma forma que uma função pode ser armazenada numa constante ou uma variavel. Ela é chamada de função anonima por não possuir um nome, mas sim estar associada a uma variavel.
 
----
-## Função Autoinvocável 
+
+### Função Autoinvocável :
 A função autoinvocável (ou IIFE - Immediately Invoke Function Expression) é uma função parecida com a função anonima, pois não é necessario de ter um nome. Ela ira se chamar logo após a criação de suas instruções:
 
     (
@@ -63,8 +67,7 @@ e também pode ser armazenada em uma variável:
     )(1, 2);
     console.log(soma3) //3
 
----
-## Callbacks
+### Callbacks :
 
 Basicamente uma função que é usada como parametro de outra função:
 
@@ -86,3 +89,110 @@ Basicamente uma função que é usada como parametro de outra função:
     console.log(resultSoma); // 3
     console.log(resultSub); // -1
 
+---
+## Parametros
+
+### Valores padrão
+
+É possivel declarar um valor padrão para uma devida função.
+
+    function exponencial(array, num=1){
+        const resultado = [];
+        
+        for(let i=0;i<array.length;i++)
+            result.push(array[i]**num);
+        
+        return result;
+    }
+
+    exponencial([1, 2, 3, 4])  //[1, 2, 3, 4]
+    exponencial([1, 2, 3, 4], 4) //[1, 8, 27, 64]
+
+nesse exemplo, de uma função que calcula exponencial, e como parametro é possivel só enviar o array, que ele usa o valor padrão do num como 1, e retorna os valores. Porém, também é possivel mandar um parametro para trocar o valor de "num", fazendo o calculo da exponencial.
+
+### Arguments
+
+O objeto arguments é um array de todos os argumentos mandados para uma função.
+
+    function findMax(){
+        let max = -Infinity;
+
+        for(let i = 0; i< arguments.length; i++){
+            if(arguments[i] > max)
+                max = arguments[i];
+        }
+
+        return max;
+    }
+
+Obs: (-Infinity declara o valor para -infinito)
+
+Nessa função, ele vai pegar todos os valores que foram mandados para a função findMax() e procurar o maior usando o arguments
+
+    input: findmax(1, 2, 3, 6, 90, 1);
+    output: 90;
+
+### Spread
+
+O spread é uma forma de utilizar arrays como argumentos, como demonstrado no exemplo a seguir:
+
+    function sum(x, y, z){
+        return x+y+z;
+    }
+
+    const numbers = [1, 2, 3];
+    console.log(sum(...numbers));
+
+Normalmente, um array é considerado somente como um argumento, mas quando se usa o Spread (os '...' antes da variavel), ele usa cada elemento do array como argumentos para a função.
+
+### Rest
+
+Faz parecido com o Spread, só que em vez de ser no argumento para mandar, é justamente onde ele recebe na função, fazendo com que um elemento independente se transformar num array, como no exemplo:
+
+    function confereTamanho(...args){
+        console.log(args.length)
+    }
+
+    confereTamanho() //0
+    confereTamanho(1, 2) //2
+    confereTamanho(3, 4, 5) //3
+
+### Object Destructuring
+
+O object destructuring serve para permitir fazer funções que quebrem o objeto, permitindo pegar facilmente certos elementos de um determinado objeto, como no exemplo:
+
+    const user ={
+        id: 42,
+        displayName: 'jdoe',
+        fullName:{
+            firstName: 'John',
+            lastName: 'Doe'
+        }
+    };
+    function userId({id}){
+        return id;
+    }
+    function getFullName({fullName: {firstName: first, lastName: last}}) {
+        return `${first} ${last}`;
+    }
+
+    userId(user); // 42
+    getFullName(user); // John Doe
+
+Obs.: É possivel declarar outro nome na declaração quando se usa dois pontos ':' dentro das chaves.
+
+---
+## Loops
+
+### If/Else
+
+Condicionais classicas, Se...Caso contrario.
+
+    function numeroPositivo(num){
+        const ehNegativo = num < 0;
+
+        if(ehNegativo)
+            return false;
+        
+        return true;
+    }
