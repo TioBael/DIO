@@ -38,7 +38,7 @@ Pode ser considerada uma função anonima uma função que representa uma expres
 Da mesma forma que uma função pode ser armazenada numa constante ou uma variavel. Ela é chamada de função anonima por não possuir um nome, mas sim estar associada a uma variavel.
 
 
-### Função Autoinvocável :
+### - Função Autoinvocável :
 A função autoinvocável (ou IIFE - Immediately Invoke Function Expression) é uma função parecida com a função anonima, pois não é necessario de ter um nome. Ela ira se chamar logo após a criação de suas instruções:
 
     (
@@ -67,7 +67,7 @@ e também pode ser armazenada em uma variável:
     )(1, 2);
     console.log(soma3) //3
 
-### Callbacks :
+### - Callbacks :
 
 Basicamente uma função que é usada como parametro de outra função:
 
@@ -92,7 +92,7 @@ Basicamente uma função que é usada como parametro de outra função:
 ---
 ## Parametros
 
-### Valores padrão
+### - Valores padrão
 
 É possivel declarar um valor padrão para uma devida função.
 
@@ -110,7 +110,7 @@ Basicamente uma função que é usada como parametro de outra função:
 
 nesse exemplo, de uma função que calcula exponencial, e como parametro é possivel só enviar o array, que ele usa o valor padrão do num como 1, e retorna os valores. Porém, também é possivel mandar um parametro para trocar o valor de "num", fazendo o calculo da exponencial.
 
-### Arguments
+### - Arguments
 
 O objeto arguments é um array de todos os argumentos mandados para uma função.
 
@@ -132,7 +132,7 @@ Nessa função, ele vai pegar todos os valores que foram mandados para a funçã
     input: findmax(1, 2, 3, 6, 90, 1);
     output: 90;
 
-### Spread
+### - Spread
 
 O spread é uma forma de utilizar arrays como argumentos, como demonstrado no exemplo a seguir:
 
@@ -145,7 +145,7 @@ O spread é uma forma de utilizar arrays como argumentos, como demonstrado no ex
 
 Normalmente, um array é considerado somente como um argumento, mas quando se usa o Spread (os '...' antes da variavel), ele usa cada elemento do array como argumentos para a função.
 
-### Rest
+### - Rest
 
 Faz parecido com o Spread, só que em vez de ser no argumento para mandar, é justamente onde ele recebe na função, fazendo com que um elemento independente se transformar num array, como no exemplo:
 
@@ -157,7 +157,7 @@ Faz parecido com o Spread, só que em vez de ser no argumento para mandar, é ju
     confereTamanho(1, 2) //2
     confereTamanho(3, 4, 5) //3
 
-### Object Destructuring
+### - Object Destructuring
 
 O object destructuring serve para permitir fazer funções que quebrem o objeto, permitindo pegar facilmente certos elementos de um determinado objeto, como no exemplo:
 
@@ -184,7 +184,7 @@ Obs.: É possivel declarar outro nome na declaração quando se usa dois pontos 
 ---
 ## Loops
 
-### If/Else
+### - If/Else
 
 Condicionais classicas, Se...Caso contrario.
 
@@ -196,3 +196,174 @@ Condicionais classicas, Se...Caso contrario.
         
         return true;
     }
+
+
+*Disclaimer:* Javascript não tem elsif, o comando é else if.
+
+    function numeroPositivo(num){
+        const ehNegativo = num < 0;
+        const maiorQueDez = num > 10;
+
+        if(ehNEgativo)
+            return "Esse número é negativo!";
+        else if(!ehNegativo && maiorQueDez)
+            return "Esse número é positivo e maior que 10!";
+        
+        return "Esse número é positivo!";
+    }
+
+### - Switch/Case
+
+O Switch/case funciona como um if para uma quantidade grande de condicionais, onde ele verifica os cases para fazer o devido comando.
+
+    function getAnimal(id){
+        switch(id){
+            case 1:
+                return "cão";
+                break;
+            case 2:
+                return "gato";
+                break;
+            case 3;
+                return "pássaro":
+                break
+            default:
+                return "peixe";
+            }
+        }
+
+O break tem a função de não executar a função abaixo da opção selecionada e o default é para caso seja recebido opções invalidas de alguma forma.
+
+### - For e While
+
+O for, pode ser considerado um looping de elementos interaveis, e é uma das estruturas de looping mais usadas.
+
+    function multiplicaPorDois(arr){
+        let multiplicados = [];
+        
+        for(let i=0;i<arr.length;i++)
+            multiplicados.push(arr[i]*2)
+        return multiplicados;
+    }
+
+    const meusNumeros = [2,33,456,356,40];
+    multiplicaPorDois(meusNumeros);
+    //4, 66, 912, 712, 80
+
+Onde o primeiro item do "for" ele cria uma variavel local, onde ele irá interar, o segundo item é a condição de permanencia, nesse caso, ele vai comparar se i é menor que que o tamanho do array 'arr', e o terceiro é o que ele vai fazer a cada looping obrigatoriamente, nesse caso, ele vai somar 1 na variavel 'i'.
+
+Existe também o For...in, que ele funciona com objetos, e lê as chaves dos objetos como se fossem enumeradas.
+
+    function forInExemplo(obj){
+        for(prop in obj)
+            console.log(prop);
+    }
+
+    const meuObjeto = {
+        nome: "João",
+        idade: "20",
+        cidade: "Salvador"
+    }
+
+    forInExemplo(meuObjeto);
+    // nome
+    // idade
+    // cidade
+
+E também existe outra propriedade chamada For...of, onde trata dessa vez com estruturas interáveis, como strings e arrays.
+
+    function logLEtras(palavra){
+        for(letra of palavra)
+            console.log(letra);
+    }
+
+    const palavra = "abacaxi";
+    logLetras(palavra);
+    //a
+    //b
+    //a
+    //c
+    //a
+    //x
+    //i
+
+### - While
+
+While também é uma estrutura de repetição, onde ele faz uma verificação antes de entrar no bloco de repetição, se a condição for satisfeita ele interage naquele bloco conforme a condição permitir.
+
+    function exemploWhile(){
+        let num = 0;
+
+        while(num<=5){
+            console.log(num);
+            num++;
+        }
+    }
+
+    exemploWhile() // 0,1,2,3,4,5
+
+existe uma variação do While, que é o Do...while, onde a diferença é que o programa vai interar pelo menos uma vez com o bloco de repetição antes de verificar a condição de repetição;
+
+   function exemploDoWhile(){
+        let num = 0;
+
+        do{
+            console.log(num);
+            num++;
+        } while(num<=5);
+    }
+
+    exemploDoWhile() // 0,1,2,3,4,5
+
+###  - This
+
+'This' é uma palavra reservada para fazer manipulação de uma função, ela serve para fazer a manipulação referenciando a si mesmo, e não outras instancias dela.
+
+    const pessoa ={
+        firstName: "André",
+        lastName: "Soares",
+        id: 1,
+        fullName: function(){
+            return this.firstName + " " + this.lastName;
+        },
+        getId: function(){
+            return this.id;
+        }
+    };
+
+    pessoa.fullName(); //Output: "André Soares"
+    pessoa.getId(); //Output: 1;
+    
+E é possivel trabalhar com o 'This' em conjunto a outros metodos:
+
+### - Call
+
+O metodo call funciona recebendo os parametros do objeto em que o 'this' vai se referir:
+
+    const pessoa = {
+        nome: 'Miguel',
+    };
+
+    const animal = {
+        nome: 'Murphy,
+    };
+
+    function getSomething(){
+        console.log(this.nome);
+    }
+
+    getSomething.call(pessoa);
+
+nesse caso, o 'this' da função 'getSomething()' vai se referenciar ao objeto 'pessoa' pois é o parametro que o 'call' esta mandando.
+
+### - Bind
+
+O bind irá clonar a estrutura da função que esta referenciando e irá aplicar os parametros que está recebendo.
+
+    const retornaNomes = function(){
+        return this.nome
+    };
+    let bruno = retornaNOmes.bind({ nome: 'Bruno'});
+
+    bruno(); //Output: 'Bruno'
+
