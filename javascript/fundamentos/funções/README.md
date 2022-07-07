@@ -367,3 +367,34 @@ O bind irá clonar a estrutura da função que esta referenciando e irá aplicar
 
     bruno(); //Output: 'Bruno'
 
+### - Arrow Function
+
+Arrow Function funciona de uma forma que serve para atribuir o retorno de uma função de outra forma, como no exemplo:
+
+    const helloWorld = function(){
+        return "Hello World";
+    }
+
+    const helloWorld = () => {
+        return "Hello World;
+    }
+
+    const helloWorld = () => "Hello World";
+
+essas três sentenças fazem a mesma coisa, e se só tiver uma linha, deixa de existir a necessidade de escrever 'return', o javascript já presume que isso é um retorno.
+
+E caso a função tenha somente um paramentro, deixa de existir a necessidade de ter os parênteses do parametro:
+
+    const soma = (a, b) => a+b;
+    soma(4, 6); //Output: 10;
+
+    const soma = a => a;
+    soma(4); //Output: 4;
+
+Obs.: Arrow function não faz hoisting.
+
+Restrições da Arrow Function:
+
+- "This" ainda se manterá global, não funcionando na Arrow Function.
+- Não existe o objeto "Arguments".
+- Não pode ser utilizado construtores como new MeuObjeto().
