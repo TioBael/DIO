@@ -1,5 +1,39 @@
 # Funções
 
+## Indice
+
+1. [Declaração de uma função](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#declara%C3%A7%C3%A3o-de-uma-fun%C3%A7%C3%A3o)
+2. [Tipos](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#tipos)
+
+    - [Função Anonima](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#fun%C3%A7%C3%A3o-anonima)
+    - [Callbacks](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--callbacks-)
+3. [Parametros](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#parametros)
+    
+    3.1 [Valores padrão](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--valores-padr%C3%A3o)
+    
+    3.2 [Arguments](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--arguments)
+    
+    3.3 [Spread](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--spread)
+    
+    3.4 [Rest](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--rest)
+    
+    3.5 [Object Destructuring](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--object-destructuring)
+4. [Loops](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#loops)
+    
+    4.1 [If/Else](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--ifelse)
+    
+    4.2 [Switch/case](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--switchcase)
+    
+    4.3 [For e While](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--for-e-while)
+    
+    4.4 [While](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--while)
+5. [This](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--this)
+6. [Call](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--call)
+7. [Bind](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--bind)
+8. [Arrow Function](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--arrow-function)
+
+---
+
 No javascript, a forma de declarar funções é usando o termo "function", seguido do nome dela, como por exemplo, no "funcao.js", é possivel ver que foi declarado "function soma(a, b)", onde ele recebe os valores "a" e "b" desta ordem, e realiza a operação durante o retorno "return a+b". Onde terá um retorno aonde for chamado, poderia não ter retorno também, usar um "console.log(a+b)", onde seria entregue no console.
 
 Mas para utilizar a função, ela tem de ser chamada durante o codigo, nesse caso, é possivel chamar usando "soma(3, 5);", onde ele mandará o valor "3" e "5" respectivamente para a função e retornará o resultado, que nesse caso esperado é 8.
@@ -28,7 +62,7 @@ a palavra "Return" indica o fim de uma função, não importa se for o final do 
 ## Tipos:
 Os tipos de funções:
 
-### Função Anonima:
+### - Função Anonima:
 Pode ser considerada uma função anonima uma função que representa uma expressão.
 
     const soma = function (a,b){

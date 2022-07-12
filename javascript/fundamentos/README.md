@@ -8,6 +8,7 @@ Aqui sera postado o material basico para o desenvolvimento em Javascript, quest�
 * 2 - [Atribuição de valores](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/atribuindo-valores)
 * 3 - [Funções](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es)
 * 4 - [Sintaxe e Operadores](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/sintaxe-e-operadores)
+* 5 - [Coleções](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/cole%C3%A7%C3%B5es)
 
 ## Projetos e Trabalhos
 
