@@ -5,8 +5,9 @@
 1. [Declaração de uma função](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#declara%C3%A7%C3%A3o-de-uma-fun%C3%A7%C3%A3o)
 2. [Tipos](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#tipos)
 
-    - [Função Anonima](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#fun%C3%A7%C3%A3o-anonima)
-    - [Callbacks](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--callbacks-)
+    2.1 [Função Anonima](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#fun%C3%A7%C3%A3o-anonima)
+    
+    2.2 [Callbacks](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--callbacks-)
 3. [Parametros](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#parametros)
     
     3.1 [Valores padrão](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/fun%C3%A7%C3%B5es#--valores-padr%C3%A3o)
