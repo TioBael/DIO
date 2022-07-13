@@ -4,14 +4,16 @@ O basico de array já foi feito no estudo de estrutura de dados, aqui terá trê
 
 ## Indice
 
-1. Map
+1. [Map](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/array#map)
 
-    1.1 map vs for..Each
+    1.1 [map vs for..Each](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/array#map-vs-foreach)
 
-2. Filter
+2. [Filter](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/array#filter)
 
 
-3. Reduce
+3. [Reduce](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/array#reduce)
+
+4. [Exercicio](https://github.com/TioBael/DIO/tree/main/javascript/fundamentos/array#exercicio)
 
 ## Map
 
@@ -65,11 +67,17 @@ A função callback é a função que irá ser executada, e o initialValue é o 
 ### Map
 
 * Pratique a sintaxe de multiplicação de números, uma vez utilizando o parametro <mark>this</mark> de um objeto criado por você, e depois sem ele.
+    
+    * Resolução [aqui](js/map.js)
 
 ### Filter
 
 * Filtre e retorne todos os nnúmeros pares de um array.
 
+    * Resolução [aqui](js/filter.js)
+
 ### Reduce
 1. Some todos os números de um array.
 2. Crie uma função que recebe uma lista de preços e um número representando o saldo disponível. Calcule qual será o saldo final após subtrair todos os preços da lista enviada.
+
+    * Resolução [aqui](js/reduce.js)
