@@ -72,7 +72,7 @@ A função callback é a função que irá ser executada, e o initialValue é o 
 
 ### Filter
 
-* Filtre e retorne todos os nnúmeros pares de um array.
+* Filtre e retorne todos os números pares de um array.
 
     * Resolução [aqui](js/filter.js)
 
