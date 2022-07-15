@@ -81,3 +81,38 @@ function verificarPalindromo(string){
     A string enviada foi:
     String inválida
 
+## Objeto Error
+
+A manipulação do objeto error permite a criação de exceções personalizadas, com mais caracteristicas pessoais ou fora do escopo que o javascript teria.
+
+    new Error(message, fileNmae, lineNumber)
+    //Todos os parâmetros são opcionais
+
+    const meuErro = new Error('Mensagem Inválida');
+    throw meuError;
+
+É possivel dar um nome a exceção:
+
+    const meuError = new Error('Mensagem Inválida');
+    meuError.name = 'InvalidMessageException';
+
+    throw meuError;
+    //Output:
+    Uncaught InvalidMessageException: Mensagem Inválida at <anonymous>:3:17
+
+## Exercicio
+
+O objetivo é que função receba um array e retorne ele caso o seu tamanho corresponda ao número enviado como parâmetro na função.
+Caso contrário, um erro será lançado.
+
+* Crie uma função que receba um array e um número
+* REalize as seguintes validações:
+    
+    * Se os parâmetros não forem enviados, lance um erro do tipo <mark>ReferenceException</mark>
+    * Se o array não for do tipo 'object', lance um erro do tipo <mark>TypeException</mark>
+    * Se o número não for do tipo 'number', lance um erro do tipo <mark>TypeException</mark>
+    * Se o tamanho do array for diferente do número enviado como parâmetro, lance um erro do tipo <mark>RangeException</mark>
+* Utilize a declaração <mark>try...catch</mark>
+*Filtre as chamadas de catch por cada tipo utilizando o operador <mark>instanceOf</mark>
+
+Resolução do problema [aqui](js/exercicio.js)
