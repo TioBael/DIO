@@ -72,5 +72,7 @@ exemplo POST:
 
 NEsta atividade, vamos criar uma págia que carrega fotos aleatórias de gatinhos sempre que clicamos em um botão
 
-1. Utilize a API <mark> https://thatcopy.pw/catapi/rest</mark> para fazer as chamadas com o método <mark>fetch</mark>;
+1. Utilize a API <mark>https://api.thecatapi.com/</mark> para fazer as chamadas com o método <mark>fetch</mark>;
 2. Utilize seus conhecimentos na manipulação do DOM para criar a imagem e ativar o evento de clique do botão!
+
+Visualize [aqui](https://htmlpreview.github.io/?https://github.com/TioBael/DIO/blob/main/javascript/fundamentos/assincronicidade/assets/index.html).

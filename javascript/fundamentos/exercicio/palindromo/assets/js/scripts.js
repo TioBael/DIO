@@ -11,7 +11,7 @@ function checkPalindromo(frase){
     return false;
 }
 
-let candidatoPalindromo = "Girafarig"
+let candidatoPalindromo = "Desoxirribonucleico"
 if(!checkPalindromo(candidatoPalindromo))
     console.log(`${candidatoPalindromo} não é palindromo`);
 else
