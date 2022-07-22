@@ -1,0 +1,15 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "O typescript é como se fosse uma especie de complemento para o javascript, adicionando checagem de tipo, para com que o desenvolvedor não perca muito seu tempo fazendo varias checagens, dentre outras funções a mais.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Costa",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.3.1"
+  }
+}
